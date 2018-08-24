@@ -5,13 +5,17 @@
 This script builds an mp3 library of any size for testing Mixxx. It can be used to test any software that
 needs to read a LOT of mp3s.
 
+## Requirements
+
+Node.js
+
 ## Usage
 
+Install dependencies with `npm i`.
+
 Open mixxxLibraryBuilder.js and edit the configurable items at the top, then run
-
 `node mixxxLibraryBuilder.js`
-
-and watch as it builds a library structure organized by genre/artist/album using random data. That data is
+and watch in amazement as it builds a library structure organized by genre/artist/album using random data. That data is
 also written to each file as an ID3v2.3 tag
 
 ## Disclaimer
