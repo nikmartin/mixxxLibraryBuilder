@@ -1,5 +1,5 @@
 /*
-* Copyright 2018 Nik Martin
+Copyright 2018 Nik Martin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
   
@@ -15,7 +15,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
  */
 
 // how many tracks to generate
-const trackCount = 10000;
+const trackCount = 1000;
 
 //how many artists per genre
 const artistCount = 8;
