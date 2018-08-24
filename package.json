@@ -10,7 +10,7 @@
     "Mixxx"
   ],
   "author": "Nik Martin",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "node-id3": "^0.1.5"
   }
