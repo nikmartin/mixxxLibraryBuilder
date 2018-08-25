@@ -23,9 +23,12 @@ const artistCount = 8;
 //how many albums per artist
 const albumCount = 2;
 
+// the BPM range to tag each track with
 const minBPM = 50;
 const maxBPM = 180;
-const libraryPath = './library';
+
+//where to build the library. To avoid thrassing SSDs, use a memory mapped temp file system if possible
+const libraryPath = '/tmp/library';
 
 // the list of genres to assign. Each genre gets evenly distrubuted across the library. Add more to get more
 const genreList = [
@@ -44,6 +47,7 @@ const genreList = [
   'Merengue',
 ];
 
+/* === HERE BE DRAGONS. THERE AREN"T (M)ANY CONFIGURABLE ITEMS BELOW HERE === */
 var fs = require('fs');
 const id3 = require('node-id3');
 

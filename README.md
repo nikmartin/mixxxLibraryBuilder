@@ -3,7 +3,7 @@
 ## Description
 
 This script builds an mp3 library of any size for testing Mixxx. It can be used to test any software that
-needs to read a LOT of mp3s.
+needs to read a LOT of mp3s. It's pretty fast, and can build a 1 million track library in about a minute.
 
 ## Requirements
 
@@ -11,16 +11,20 @@ Node.js
 
 ## Usage
 
-Install dependencies with `npm i`.
+Install dependencies with `npm i` the only dependency is an ID3 tag writing library.
 
-Open mixxxLibraryBuilder.js and edit the configurable items at the top, then run
-`node mixxxLibraryBuilder.js`
-and watch in amazement as it builds a library structure organized by genre/artist/album using random data. That data is
-also written to each file as an ID3v2.3 tag
+Open mixxxLibraryBuilder.js and edit the configurable items at the top, then run `node mixxxLibraryBuilder.js`
+and watch in amazement as it builds a library structure organized by genre/artist/album using random data.
+That data is also written to each file as an ID3v2.3 tag
+
+## Repository
+
+This repository uses the gitflow development workflow, so the latest development branch is `develop`, and
+`master` is the latest released version.
 
 ## Disclaimer
 
-Ths software has no warranty, and probably has bugs.
+This software has no warranty, and probably has bugs.
 
 ## License
 
